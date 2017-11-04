@@ -1,0 +1,6 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+hannah:
+  name: Hannah Miller
+  email: hmiller@suiss.eu
+  password_digest: <%= User.digest('password') %>
